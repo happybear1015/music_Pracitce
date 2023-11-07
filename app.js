@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const number_of_numbers = numberSlider.value;
         const random_sequence = generateRandomNumbers(number_of_numbers);
         randomlyPlayedNotes = random_sequence;
-        singResult.innerText = "生成的随机数: " + random_sequence.join(", ");
+        singResult.innerText = "随机生成的唱名: " + random_sequence.join(", ");
     });
 
     playButton.addEventListener("click", function () {
